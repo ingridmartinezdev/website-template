@@ -58,14 +58,18 @@ form button{
     font-size: 16px;
     background-color: transparent;
 }
+.container {
+    margin:0 auto;
+    width: 1031px;
+}
 .banner{
     background-color: #777777;
     height: 463px;
+    display: flex;
+    justify-content: center;
 }
 .banner-content{
-    width: 1031px;
-    margin-right: 220px;
-    margin-left: 220px;
+    width: 100%;
     padding-top: 200px;
     padding-bottom: 80px;
     color: white;
@@ -96,8 +100,6 @@ form button{
     border-radius: 50%;
 }
 .row{
-    /* display: grid;
-    grid-template-columns: (1fr 1fr 1fr); */
     display: flex;
     width: 1140px;
     padding-top: 70px;
@@ -112,9 +114,8 @@ form button{
     text-align: center;
 }
 .container-content{
-    margin: 0px 166.5px;
-    padding: 0px 15px;
-    width: 1473px;
+    margin:0 auto;
+    width: 1140px;
 }
 .card p{
     width: 326px;
@@ -167,5 +168,15 @@ form button{
 }
 .padding-banner{
     padding-top: 80px !important;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px !important;
+    padding-bottom: 48px;
+}
+footer a{
+    color: #007bff;
+    text-decoration: none;
 }
 
